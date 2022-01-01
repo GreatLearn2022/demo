@@ -20,7 +20,7 @@ public class DemoApplication {
 		return String.format("Hello %s!", name);
 	}
 
-	@GetMapping("/hello/path/{name}")
+	@GetMapping("/hello/path1/{name}")
 	@ResponseBody
 	public String helloPathVariable(@PathVariable String name) {
 //		return String.format("Hello %s!", name);
